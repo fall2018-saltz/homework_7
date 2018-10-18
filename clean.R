@@ -3,8 +3,6 @@ library(ggmap)
 library(ggplot2)
 
 ##Load and Merge Datasets
-urlread <- "https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/state/asrh/scprc-est2017-18+pop-res.csv"
-dfStates <- read.csv(url(urlread),stringsAsFactors = FALSE) ##call local sheet
 str(dfStates)
 dfStates
 
