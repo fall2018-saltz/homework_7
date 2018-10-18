@@ -27,17 +27,7 @@
         {
             "ports": [],
             "source": "clean.R",
-            "target": "murderrate_pop_w_circles.R"
-        },
-        {
-            "ports": [],
-            "source": "clean.R",
             "target": "zoom_map.R"
-        },
-        {
-            "ports": [],
-            "source": "murderrate_pop_w_circles.R",
-            "target": "murder_w_circles_map.png"
         },
         {
             "ports": [],
@@ -72,10 +62,6 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "murderrate_pop_w_circles.R"
-        },
-        {
             "name": "state_area_map.png"
         },
         {
@@ -89,6 +75,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:12:15",
+    "updated_at": "2018-10-18 15:12:25",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
