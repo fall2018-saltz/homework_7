@@ -61,8 +61,11 @@
         {
             "desc": "",
             "name": "zoom_map.R"
+        },
+        {
+            "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:21:07",
+    "updated_at": "2018-10-18 01:21:18",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
