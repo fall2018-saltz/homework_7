@@ -48,8 +48,11 @@
         {
             "desc": "",
             "name": "murderrate_pop_w_circles.R"
+        },
+        {
+            "name": "state_area_map.png"
         }
     ],
-    "updated_at": "2018-10-18 00:59:04",
+    "updated_at": "2018-10-18 01:02:31",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
