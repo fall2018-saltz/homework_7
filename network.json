@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "state_area_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "US_murder_map",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "murder_map.png"
         }
     ],
     "nodes": [
@@ -47,6 +57,6 @@
             "name": "murder_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:23:32",
+    "updated_at": "2018-10-18 15:25:37",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
