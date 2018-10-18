@@ -32,8 +32,11 @@
         },
         {
             "name": "zoom_map_map.png"
+        },
+        {
+            "name": "murder_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:12:39",
+    "updated_at": "2018-10-18 15:20:21",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
