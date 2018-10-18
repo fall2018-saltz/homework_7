@@ -79,9 +79,6 @@
             "name": "state_area_map.png"
         },
         {
-            "name": "murder_rate_map.png"
-        },
-        {
             "name": "murder_w_circles_map.png"
         },
         {
@@ -92,6 +89,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:11:59",
+    "updated_at": "2018-10-18 15:12:15",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
