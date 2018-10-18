@@ -17,22 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "combined_df",
-                    "output": "combined_df",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "US",
-                    "output": "US",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "area_map.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "US_data_map",
                     "type": "png"
                 }
@@ -69,6 +53,17 @@
             "ports": [],
             "source": "zoom_map.R",
             "target": "zoom_map_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "area_map.R"
         }
     ],
     "nodes": [
@@ -111,6 +106,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:29:55",
+    "updated_at": "2018-10-18 01:56:09",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
