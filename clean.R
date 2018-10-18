@@ -3,14 +3,13 @@ library(ggmap)
 library(ggplot2)
 
 ##Load and Merge Datasets
-str(dfStates)
-dfStates
-
+dfStates <- pop_df
 arrests <- USArrests 
 stateName <- rownames(arrests)
 rownames(arrests) <- NULL
 arrests <- cbind(arrests,stateName)
-View(arrests)
+arrests
+
 
 ##CLEANING DATA
 dfStates <- dfStates[-53,]
