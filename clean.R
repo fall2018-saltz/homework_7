@@ -32,3 +32,6 @@ common_col_names <- intersect(names(arrests), names(dfStates))
 combined_df <- merge.data.frame(arrests, dfStates, by = common_col_names, all.x = TRUE)
 combined_df
 
+
+US <-map_data("state")
+
