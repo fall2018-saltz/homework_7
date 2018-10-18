@@ -1,6 +1,7 @@
 
 library(ggmap)
 library(ggplot2)
+library(tibble)
 
 ##Load and Merge Datasets
 dfStates <- pop_df
