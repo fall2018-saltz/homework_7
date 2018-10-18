@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "US_data_map",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "state_area_map.png"
         }
     ],
     "nodes": [
@@ -37,6 +47,6 @@
             "name": "murder_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:20:29",
+    "updated_at": "2018-10-18 15:23:32",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
