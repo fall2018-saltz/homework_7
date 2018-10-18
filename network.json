@@ -59,6 +59,11 @@
             "ports": [],
             "source": "murderrate_map.R",
             "target": "murder_rate_map.png"
+        },
+        {
+            "ports": [],
+            "source": "murderrate_pop_w_circles.R",
+            "target": "murder_w_circles_map.png"
         }
     ],
     "nodes": [
@@ -101,6 +106,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:29:37",
+    "updated_at": "2018-10-18 01:29:48",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
