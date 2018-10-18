@@ -7,22 +7,22 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "pop_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -66,6 +66,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:21:18",
+    "updated_at": "2018-10-18 01:23:18",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
