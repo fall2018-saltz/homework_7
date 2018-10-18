@@ -13,27 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "US_data_map",
-                    "type": "png"
-                }
-            ],
-            "source": "area_map.R",
-            "target": "state_area_map.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "combined_df",
-                    "output": "combined_df",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "area_map.R"
         }
     ],
     "nodes": [
@@ -46,12 +25,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "area_map.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "state_area_map.png"
         },
         {
@@ -61,6 +34,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:12:32",
+    "updated_at": "2018-10-18 15:12:39",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
