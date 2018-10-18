@@ -17,10 +17,12 @@
         {
             "ports": [
                 {
+                    "input": "combined_df",
                     "output": "combined_df",
                     "type": "r_obj"
                 },
                 {
+                    "input": "US",
                     "output": "US",
                     "type": "r_obj"
                 }
@@ -67,6 +69,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:25:23",
+    "updated_at": "2018-10-18 01:25:57",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
