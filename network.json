@@ -39,6 +39,11 @@
             ],
             "source": "area_map.R",
             "target": "state_area_map.png"
+        },
+        {
+            "ports": [],
+            "source": "clean.R",
+            "target": "murderrate_map.R"
         }
     ],
     "nodes": [
@@ -81,6 +86,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:27:53",
+    "updated_at": "2018-10-18 01:29:20",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
