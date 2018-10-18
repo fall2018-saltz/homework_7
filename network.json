@@ -25,16 +25,6 @@
             "target": "state_area_map.png"
         },
         {
-            "ports": [],
-            "source": "clean.R",
-            "target": "zoom_map.R"
-        },
-        {
-            "ports": [],
-            "source": "zoom_map.R",
-            "target": "zoom_map_map.png"
-        },
-        {
             "ports": [
                 {
                     "input": "combined_df",
@@ -68,13 +58,9 @@
             "name": "murder_w_circles_map.png"
         },
         {
-            "desc": "",
-            "name": "zoom_map.R"
-        },
-        {
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 15:12:25",
+    "updated_at": "2018-10-18 15:12:32",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
