@@ -30,12 +30,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "chnegiz",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "area_map.R"
         }
     ],
-    "updated_at": "2018-10-18 00:37:15",
+    "updated_at": "2018-10-18 00:57:48",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
