@@ -29,6 +29,16 @@
             ],
             "source": "clean.R",
             "target": "area_map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "US_data_map",
+                    "type": "png"
+                }
+            ],
+            "source": "area_map.R",
+            "target": "state_area_map.png"
         }
     ],
     "nodes": [
@@ -41,8 +51,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "chnegiz",
             "desc": "",
-            "name": "area_map.R"
+            "name": "area_map.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
@@ -69,6 +81,6 @@
             "name": "zoom_map_map.png"
         }
     ],
-    "updated_at": "2018-10-18 01:25:57",
+    "updated_at": "2018-10-18 01:27:53",
     "url": "https://github.com/fall2018-saltz/homework_7"
 }
